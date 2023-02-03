@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# 引数があれば以下を実行する
+if test x$1 = x; then
+    echo "argv #1 is null"
+else
+    echo "argv #1 is $1"
+fi
+
+############### 変数宣言 ###################
+# DIR
+OUT=/Users/tr/Desktop/D0
+INPUT=/Users/tr/DATASET/MDimage/head/dicom/IMG1
+############################################
+
+# make Directory
+if test -d $DIR
+then echo $DIR
+else mkdir $DIR
+fi
+
+shDo1(){
+echo Do Do1.py
+cat <<- EOM > Do1.py
+	import pydicom
+	d = pydicom.read_file("$INPUT")
+	print(d)
+EOM
+python3 Do1.py > $OUT/DICOM_file.txt
+rm Do1.py
+}
+
+
+shDo2(){
+echo Do Do2.py
+name='Modality Manufacturer KVP'
+for i in $name
+do cat <<- EOM >> Do2.py
+	import pydicom
+	d = pydicom.read_file("$INPUT")
+	print(d.$i)
+EOM
+done
+python3 Do2.py > $OUT/file.txt
+rm Do2.py
+}
+
+
+
+
+
+shDo1
+shDo2
