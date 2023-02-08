@@ -6,7 +6,7 @@
 
 この GitHub 常にプログラムのソースコードを載せているので，各自ローカルもしくは，Google Colaboratory にて動かしてみましょう．
 Google Colaboratory には Google アカウントの取得が必要ですが，マシンの性能に左右されないので，便利で簡便です．
-基本的にコードは Python で記述しており，Jupyter Notebook 形式にて載せています．
+基本的にコードは Python で記述しており，Jupyter Notebook にて載せています．
 
 
 ## DICOM ファイルとは
