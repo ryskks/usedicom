@@ -19,8 +19,9 @@ Google Colaboratory には Google アカウントの取得が必要ですが，�
  - [ImageJ](https://imagej.nih.gov/ij/images/) より無料配布の DICOM ファイルを使用
  - [OSIRIX](http://www.osirix-viewer.com/resources/dicom-image-library/) より無料配布の DICOM ファイルを使用
 
-## NOTEBOOk
+## NOTEBOOK
 
+|  番号 | ファイル | 説明 |
 | :---: | :--- | :--- |
 | 1 | [readDICOM.ipynb](https://github.com/ryskks/usedicom/blob/main/readDICOM.ipynb) | DICOM タグの読み取りと画像表示 |
 | 2 | [window.ipynb](https://github.com/ryskks/usedicom/blob/main/window.ipynb) | ウィンドウレベル/幅の調整 |
