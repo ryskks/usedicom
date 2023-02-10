@@ -10,7 +10,11 @@ Google Colaboratory には Google アカウントの取得が必要ですが，�
 
 下の NOTEBOOK がメインです．基本は上から順番に実行してください．
 
+各ファイル内のこの
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ryskks/blob/usedicom/blob/main/readDICOM.ipynb>)
+
+ボタンを押すことで Google Colaboratory に移動することが可能です．
 
 ## 環境等
 
@@ -25,6 +29,13 @@ Google Colaboratory には Google アカウントの取得が必要ですが，�
  - [OSIRIX](http://www.osirix-viewer.com/resources/dicom-image-library/) より無料配布の DICOM ファイルを使用
 
 ## NOTEBOOK
+
+以下に，使用するファイルを表にまとめる．
+
+### 使用するデータ
+
+1. IMG_head.dcm: 頭部 CT 画像．一枚の画像を処理するのに使用します．
+2. EX1: スキャの画像と胸部ファントムの画像がスライス画像として格納されています． 
 
 |  番号 | ファイル | 説明 |
 | :---: | :--- | :--- |
