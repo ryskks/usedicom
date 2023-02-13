@@ -29,13 +29,11 @@ Google Colaboratory には Google アカウントの取得が必要ですが，�
  - [OSIRIX](http://www.osirix-viewer.com/resources/dicom-image-library/) より無料配布の DICOM ファイルを使用
 
 ## NOTEBOOK
+### 使用するデータ (Materials)
 
-以下に，使用するファイルを表にまとめる．
+1. IMG_head.dcm: 頭部 CT 画像．一枚の画像を処理するのに使用します (CT image of the head. Used to process a single image.)
+2. EX1: スキャノ画像と胸部ファントムの画像がスライス画像として格納されています (Scano-image and chest phantom images are stored as slice images.)
 
-### 使用するデータ
-
-1. IMG_head.dcm: 頭部 CT 画像．一枚の画像を処理するのに使用します．
-2. EX1: スキャの画像と胸部ファントムの画像がスライス画像として格納されています．
 上記の画像以外にも，使用可能です．まずは，使い方を取得する意味でも上記の画像を使いましょう．まずは，上の画像を自身の Google Drive 上にコピーして，以下の各ファイルを実行してみましょう．この時，Google Drive には最低でも 1GB 以上の空き容量があることが望ましいです．また，画像の場所と PATH が適切でなければ，プログラムは動きません．ディレクトリ等の階層構造もこの際に勉強すると良いです． 
 
 |  番号 | ファイル | 説明 |
@@ -55,7 +53,7 @@ The source code of the program is available on GitHub, so you can run the progra
 Google Colaboratory requires a Google account, but it is convenient and easy to use because it does not depend on the performance of the machine.
 Basically, the code is written in Python and is available in Jupyter Notebook.
 
-The NOTEBOOK below is the main one. Basically, the files should be run in order from the top to the bottom.
+The above NOTEBOOK is the main file. Basically, the files should be run in order from the top to the bottom.
 
 In each file, this
 
