@@ -58,6 +58,6 @@ The NOTEBOOK below is the main one. Basically, the files should be run in order 
 
 In each file, this
 
-[! [Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ryskks/blob/ usedicom/blob/main/readDICOM.ipynb>)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ryskks/blob/usedicom/blob/main/readDICOM.ipynb>)
 
 button in each file will take you to Google Colaboratory.
